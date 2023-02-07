@@ -1,0 +1,66 @@
+section{
+    display: grid;
+    grid-template-areas: 
+    "......     ......      ......      desno"
+    "lijevo     lijevo      .....       desno";
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.desno{grid-area: desno;}
+.lijevo{grid-area: lijevo;}
+.podrucje{
+    font-size: 3rem;
+    padding: 3rem;
+    border-radius: 1rem;
+
+}
+h1{
+    text-align: center;
+    nav-up: auto;
+    border-bottom-style: groove;
+    resize: horizontal;
+    
+}
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: pre;
+    font-size: initial;
+    font-family:Verdana, Tahoma, sans-serif;
+    table-layout: fixed;
+    -moz-box-align: center;
+    
+    
+}
+td{
+    background-color: rgba(182, 114, 250, 0);
+    
+}
+th{
+    background-color: seashell;
+}
+body{
+    text-align: center;
+    text-shadow: 1px 0 #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 2rem;
+    
+}
+header{
+    font-size: 2rem;
+    overflow-x: scroll;
+    
+}
+article{
+    font-size: 2rem;
+    content: none;
+}
+
+img{
+    image-resolution: 300dpi;
+    
+}
